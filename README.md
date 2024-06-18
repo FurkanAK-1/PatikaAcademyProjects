@@ -1,2 +1,2 @@
-# PatikaAcademyProjeler
-Patika Akademi Back-End Eğitimi Projeler Ve Ödevler.
+# Patika Academy Projects
+Patika Academy Backend Training Projects and Assignments.
