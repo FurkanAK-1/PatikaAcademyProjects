@@ -12,9 +12,9 @@ public class GradeAverage {
 		double total = 0;
 
 		for (int i = 0; i < lessons.length; i++) {
-			System.out.println("Enter the lesson");
+			System.out.println("Enter the lesson.");
 			lessons[i] = scanner.next();
-			System.out.println("Enter the grade of " + lessons[i] + " lesson");
+			System.out.println("Enter the grade of " + lessons[i] + " lesson.");
 			notes[i] = scanner.nextDouble();
 
 		}
