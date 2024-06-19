@@ -4,44 +4,44 @@ public class FlightTicketCalculation {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Mesafeyi km türünden giriniz: ");
-		int mesafe = scanner.nextInt();
+		System.out.println("Enter the distance in km: ");
+		int distance = scanner.nextInt();
 
-		System.out.println("Yaşınızı giriniz:");
-		int yas = scanner.nextInt();
+		System.out.println("Enter your age:");
+		int age = scanner.nextInt();
 
-		System.out.println("Yolculuk tipini giriniz (1 => Tek Yön, 2 => Gidiş Dönüş)");
-		int yolculukTipi = scanner.nextInt();
-		int biletfiyati = (mesafe * 10) / 100;
+		System.out.println("Enter the type of ticket (1 => One Way, 2 => Round Trip)");
+		int ticketType = scanner.nextInt();
+		int ticketPrice = (distance * 10) / 100;
 
-		if (mesafe <= 0 || yas <= 0) {
-			System.out.println("Hatalı Veri Girdiniz!");
+		if (distance <= 0 || age <= 0) {
+			System.out.println("Invalid Input!");
 			return;
 		}
 
-		switch (yolculukTipi) {
+		switch (ticketType) {
 
 		case 1:
 			break;
 
 		case 2:
-			biletfiyati = 2 * (biletfiyati * 80) / 100;
+			ticketPrice = 2 * (ticketPrice * 80) / 100;
 			break;
 
 		default:
-			System.out.println("Hatalı Veri Grdiniz!");
+			System.out.println("Invalid Input!");
 			return;
 
 		}
-		if (yas < 12) {
-			biletfiyati = (biletfiyati * 50) / 100;
-		} else if (yas >= 12 && yas <= 24) {
-			biletfiyati = (biletfiyati * 90) / 100;
-		} else if (yas >= 65) {
-			biletfiyati = (biletfiyati * 70) / 100;
+		if (age < 12) {
+			ticketPrice = (ticketPrice * 50) / 100;
+		} else if (age >= 12 && age <= 24) {
+			ticketPrice = (ticketPrice * 90) / 100;
+		} else if (age >= 65) {
+			ticketPrice = (ticketPrice * 70) / 100;
 		}
 
-		System.out.println("Toplam Tutar = " + biletfiyati);
+		System.out.println("Total Price = " + ticketPrice);
 
 	}
 
