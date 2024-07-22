@@ -9,7 +9,7 @@ public class ATM {
 		int balance = 1500;
 		int choice;
 		while (attempts > 0) {
-			System.out.print("Usernameaa: ");
+			System.out.print("Username: ");
 			username = input.nextLine();
 			System.out.print("Password: ");
 			password = input.nextLine();
