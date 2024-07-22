@@ -7,7 +7,7 @@ public class PrimeNumberRecursive {
 		int number = scanner.nextInt();
 
 		if (isPrime(number, 2)) {
-			System.out.println(number + " is a PRIME numberasdas!");
+			System.out.println(number + " is a PRIME number!");
 		} else {
 			System.out.println(number + " is NOT a PRIME number!");
 		}
