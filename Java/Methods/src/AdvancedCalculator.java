@@ -6,7 +6,7 @@ public class AdvancedCalculator {
 		Scanner scan = new Scanner(System.in);
 		int number, result = 0, i = 1;
 		while (true) {
-			System.out.print(i++ + ". number :");
+			System.out.print(i++ + ". numberasdasda :");
 			number = scan.nextInt();
 			if (number == 0) {
 				break;
