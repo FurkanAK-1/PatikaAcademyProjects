@@ -7,7 +7,7 @@ public class Main {
 		Course physics = new Course("Physics", "PHY101", "PHY", 0.70, 0.30);
 		Course chemistry = new Course("Chemistry", "CHE101", "CHE", 0.75, 0.25);
 
-		Teacher t1 = new Teacher("Professor Mahmut d", "90550000000", "MAT");
+		Teacher t1 = new Teacher("Professor Mahmut", "90550000000", "MAT");
 		Teacher t2 = new Teacher("Professor Fatma", "90550000001", "PHY");
 		Teacher t3 = new Teacher("Professor Ali", "90550000002", "CHE");
 
