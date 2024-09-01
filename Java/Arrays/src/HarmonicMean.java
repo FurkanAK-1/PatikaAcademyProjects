@@ -2,7 +2,7 @@
 public class HarmonicMean {
 
 	public static void main(String[] args) {
-		int[] numbers = { 1, 2, 4, 8 }; // Örnek dizi
+		int[] numbers = { 1, 2, 4, 8 };
 		double harmonicMean = calculateHarmonicMean(numbers);
 		System.out.println("Dizideki sayıların harmonik ortalaması: " + harmonicMean);
 	}
